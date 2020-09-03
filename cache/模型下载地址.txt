@@ -1,0 +1,17 @@
+模型下载地址：
+---------------------------------------------------------------------------
+
+链接：https://pan.baidu.com/s/10_M4QL6MLX9G54PykEwClQ 
+提取码：gp6r
+
+---------------------------------------------------------------------------
+
+包含内容：
+shape_predictor_68_face_landmarks.dat
+synthesis.pt                         // 官方人脸投射器
+synthesis_yellow.pt              // 黄种人脸域投射器
+synthesis_asian_star.pt         // 明星脸域投射器
+mapping.pt                         // 通用编码器
+
+----------------------------------------------------------------------------
+have more fun: http://www.seeprettyface.com
