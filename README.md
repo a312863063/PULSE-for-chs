@@ -22,11 +22,11 @@
 
 #### 单幅输出
 <p align="center">
-	<img src="./readme_resources/single_input.png" alt="Sample"  width="160" height="160">
+	<img src="./readme_resources/single_input.png" alt="Sample">
 	<p align="center">
 		<em>输入（32x32）<br />⬇</em>
 	</p>
-	<img src="./readme_resources/single_output.png" alt="Sample"  width="1024" height="1024">
+	<img src="./readme_resources/single_output.png" alt="Sample" >
 	<p align="center">
 		<em>输出（1024x1024）<br /></em>
 	</p>
@@ -36,11 +36,11 @@
 
 ### 赠品：明星脸投射器
 <p align="center">
-	<img src="./readme_resources/star_input.jpg" alt="Sample"  width="160" height="160">
+	<img src="./readme_resources/star_input.jpg" alt="Sample" >
 	<p align="center">
 		<em>输入（32x32）<br />⬇</em>
 	</p>
-	<img src="./readme_resources/star_output.jpg" alt="Sample"  width="1024" height="1024">
+	<img src="./readme_resources/star_output.jpg" alt="Sample">
 	<p align="center">
 		<em>输出（1024x1024）<br />（似乎和真实明星差别还挺大的。。。。）</em>
 	</p>
