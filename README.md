@@ -14,29 +14,36 @@
 
 #### 矫正对比
 ![Image text](./readme_resources/race_yellow.jpg)<br />
-第1行：输入；第2行：PULSE输出；第3行：黄种人投射器输出。<br />
+<p align="center">第1行：输入；第2行：PULSE输出；第3行：黄种人投射器输出。<br /></p>
 
 ---
 
 #### 单幅输出
-![Image text](./readme_resources/single_input.png)<br />
-输入（32x32）<br />
-![Image text](./readme_resources/single_output.png)<br />
-输出（1024x1024）<br />
+<p align="center">
+	<img src="./readme_resources/single_input.png" alt="Sample"  width="160" height="160">
+	<p align="center">
+		<em>输入（32x32）<br />⬇</em>
+	</p>
+	<img src="./readme_resources/single_output.png" alt="Sample"  width="1024" height="1024">
+	<p align="center">
+		<em>输出（1024x1024）<br /></em>
+	</p>
+</p>
 
 ---
 
 ### 赠品：明星脸投射器
 <p align="center">
-	<img src="./readme_resources/star_input.jpg" alt="Sample"  width="160" height="50">
+	<img src="./readme_resources/star_input.jpg" alt="Sample"  width="160" height="160">
 	<p align="center">
 		<em>输入（32x32）<br />⬇</em>
 	</p>
+	<img src="./readme_resources/star_output.jpg" alt="Sample"  width="1024" height="1024">
+	<p align="center">
+		<em>输出（1024x1024）<br />似乎和真实明星差别还是挺大的。。。。</em>
+	</p>
 </p>
 
-![Image text](./readme_resources/star_output.jpg)<br />
-输出（1024x1024）<br />
-似乎和真实明星差别还是挺大的。。。。
 
 ===========================================================
 ## Usage
