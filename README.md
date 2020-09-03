@@ -1,2 +1,8 @@
 # PULSE-for-chs
-The yellow-race correction was made to the projection space of the PULSE algorithm
+&emsp;&emsp;在做人脸超分的时候发现PULSE不是很友好，经常将人脸投射到欧美脸型中。这个github分享的模型就是将synthesis模型做了点小改动，使得投射域仅限制在黄种人的脸域中。赠品里还有一个好玩的明星脸域的投射器。
+
+# 效果预览
+
+
+# 运行方式
+（转载自PULSE官方代码）
