@@ -1,32 +1,38 @@
 # PULSE-for-chs
-Original Github link: https://github.com/adamian98/pulse
-
 <br />
-&emsp;&emsp;在做人脸超分任务的时候，发现PULSE的结果不是很接地气，超分的结果经常变成欧美人的样貌。这个Github提供的模型对生成脸域做了黄种人限制，使得超分的结果都是黄种人。另外附赠了一个明星脸域的生成器（纯属好玩）哈哈。
 
+## 项目内容 
+&emsp;&emsp;在做人脸超分任务的时候，发现PULSE的结果不是很接地气，超分的结果经常变成欧美人的样貌。这个Github提供的模型对生成脸域做了黄种人限制，使得超分的结果都是黄种人。另外附赠了一个明星脸域的生成器（纯属好玩）。<br />
+&emsp;&emsp;Original Github link: https://github.com/adamian98/pulse
 <br />
-## 效果展示
+
+## 效果展示 
+
+### 黄种人脸投射器
 
 ---
 
-![Image text](./readme_resources/race_yellow.jpg)
-![Transformation Preview](./readme_resources/034.jpeg)
-![Transformation Preview](./readme_resources/094.jpeg)
+#### 矫正对比
+![Image text](./readme_resources/race_yellow.jpg)<br />
+第1行：输入；第2行：PULSE输出；第3行：黄种人投射器输出。<br />
 
-Table of Contents
 =================
-- [PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models](#pulse-self-supervised-photo-upsampling-via-latent-space-exploration-of-generative-models)
-- [Table of Contents](#table-of-contents)
-  - [What does it do?](#what-does-it-do)
-  - [Usage](#usage)
-    - [Prereqs](#prereqs)
-    - [Data](#data)
-    - [Applying PULSE](#applying-pulse)
-## What does it do? 
-Given a low-resolution input image, PULSE searches the outputs of a generative model (here, [StyleGAN](https://github.com/NVlabs/stylegan)) for high-resolution images that are perceptually realistic and downscale correctly.
 
-![Transformation Preview](./readme_resources/transformation.gif)
+#### 单幅输出
+![Image text](./readme_resources/single_input.png)<br />
+输入（32x32）<br />
+![Image text](./readme_resources/single_output.png)<br />
+输出（1024x1024）<br />
 
+---
+### 赠品：明星脸投射器
+![Image text](./readme_resources/star_input.jpg)<br />
+输入（32x32）<br />
+![Image text](./readme_resources/star_output.jpg)<br />
+输出（1024x1024）<br />
+似乎和真实明星差别还是挺大的。。。。
+
+===========================================================
 ## Usage
 
 The main file of interest for applying PULSE is `run.py`. A full list of arguments with descriptions can be found in that file; here we describe those relevant to getting started.
