@@ -16,7 +16,7 @@
 ![Image text](./readme_resources/race_yellow.jpg)<br />
 第1行：输入；第2行：PULSE输出；第3行：黄种人投射器输出。<br />
 
-=================
+---
 
 #### 单幅输出
 ![Image text](./readme_resources/single_input.png)<br />
@@ -25,9 +25,15 @@
 输出（1024x1024）<br />
 
 ---
+
 ### 赠品：明星脸投射器
-![Image text](./readme_resources/star_input.jpg)<br />
-输入（32x32）<br />
+<p align="center">
+	<img src="./readme_resources/star_input.jpg" alt="Sample"  width="160" height="50">
+	<p align="center">
+		<em>输入（32x32）<br />⬇</em>
+	</p>
+</p>
+
 ![Image text](./readme_resources/star_output.jpg)<br />
 输出（1024x1024）<br />
 似乎和真实明星差别还是挺大的。。。。
