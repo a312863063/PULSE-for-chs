@@ -42,12 +42,12 @@
 	</p>
 	<img src="./readme_resources/star_output.jpg" alt="Sample"  width="1024" height="1024">
 	<p align="center">
-		<em>输出（1024x1024）<br />似乎和真实明星差别还挺大的。。。。</em>
+		<em>输出（1024x1024）<br />（似乎和真实明星差别还挺大的。。。。）</em>
 	</p>
 </p>
 
+---
 
-===========================================================
 ## Usage
 
 The main file of interest for applying PULSE is `run.py`. A full list of arguments with descriptions can be found in that file; here we describe those relevant to getting started.
@@ -78,7 +78,7 @@ dependencies
  ...
 ```
 
-Finally, you will need an internet connection the first time you run the code as it will automatically download the relevant pretrained model from Google Drive (if it has already been downloaded, it will use the local copy). In the event that the public Google Drive is out of capacity, add the files to your own Google Drive instead; get the share URL and replace the ID in the https://drive.google.com/uc?=ID links in ```align_face.py``` and ```PULSE.py``` with the new file ids from the share URL given by your own Drive file.
+Finally, you will need some pretrained weight files in `./cache/`.The download address is in the .txt file in the `./cache/` folder.
  
 
 ### Data
