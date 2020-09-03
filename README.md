@@ -3,7 +3,7 @@
 
 ## 项目内容 
 &emsp;&emsp;在做人脸超分任务的时候，发现PULSE的结果不是很接地气，超分的结果经常变成欧美人的样貌。这个Github提供的模型对生成脸域做了黄种人限制，使得超分的结果都是黄种人。另外附赠了一个明星脸域的生成器（纯属好玩）。<br />
-&emsp;&emsp;Original Github link: https://github.com/adamian98/pulse
+&emsp;&emsp;Original Github link: https://github.com/adamian98/pulse 。
 <br />
 <br />
 <br />
