@@ -1,15 +1,15 @@
-# PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models
-Code accompanying CVPR'20 paper of the same title. Paper link: https://arxiv.org/pdf/2003.03808.pdf
+# PULSE-for-chs
+Original Github link: https://github.com/adamian98/pulse
 
-## NOTE
+<br />
+&emsp;&emsp;在做人脸超分任务的时候，发现PULSE的结果不是很接地气，超分的结果经常变成欧美人的样貌。这个Github提供的模型对生成脸域做了黄种人限制，使得超分的结果都是黄种人。另外附赠了一个明星脸域的生成器（纯属好玩）哈哈。
 
-We have noticed a lot of concern that PULSE will be used to identify individuals whose faces have been blurred out. We want to emphasize that this is impossible - **PULSE makes imaginary faces of people who do not exist, which should not be confused for real people.** It will **not** help identify or reconstruct the original image.
-
-We also want to address concerns of bias in PULSE. **We have now included a new section in the [paper](https://arxiv.org/pdf/2003.03808.pdf) and an accompanying model card directly addressing this bias.**
+<br />
+## 效果展示
 
 ---
 
-![Transformation Preview](./readme_resources/014.jpeg)
+![Image text](./readme_resources/race_yellow.jpg)
 ![Transformation Preview](./readme_resources/034.jpeg)
 ![Transformation Preview](./readme_resources/094.jpeg)
 
