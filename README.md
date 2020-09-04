@@ -42,7 +42,7 @@
 	</p>
 	<img src="./readme_resources/star_output.jpg" alt="Sample">
 	<p align="center">
-		<em>输出（1024x1024）<br />（似乎和真实明星差别还挺大的。。。。）</em>
+		<em>输出（1024x1024）<br />（虽然和真实明星的人脸有一定差距，但这不失为解决特定领域人脸超分任务的一种思路）</em>
 	</p>
 </p>
 
